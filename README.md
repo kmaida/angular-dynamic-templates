@@ -1,4 +1,4 @@
 angular-dynamic-templates
 =========================
 
-Illustrates how to use dynamic templates via a directive.
+Illustrates how to use and compile dynamic templates via directives.
