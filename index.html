@@ -3,16 +3,18 @@
 <head>
     <title>AngularJS Dynamic Template</title>
 
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/angular.min.js"></script>
-    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="assets/libs/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/libs/js/angular.min.js"></script>
+    <script type="text/javascript" src="app/App.js"></script>
+    <script type="text/javascript" src="app/controllers/LayoutCtrl.js"></script>
+    <script type="text/javascript" src="app/directives/ContentItemDir.js"></script>
 
-    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="assets/css/layout.css">
 </head>
 <body>
 
 <div id="container" ng-controller="ContentCtrl">
-    <content-item ng-repeat="item in content" content="item"></content-item>
+    <div content-item ng-repeat="item in content" content="item"></div>
 </div>
 
 </body>

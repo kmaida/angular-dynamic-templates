@@ -14,7 +14,7 @@ body {
     font-size: 11px;
     color: #000000;
     background-color: #ffffff;
-    background-image: url(../images/bg-fiber.jpg);
+    background-image: url(../img/bg-fiber.jpg);
     background-repeat: repeat;
     background-position: fixed;
 }
@@ -26,7 +26,7 @@ body {
     width: 447px;
     height: 400px;
     margin: 0px 20px 0px 0px;
-    background-image: url(../images/entry/bg-photo.png);
+    background-image: url(../img/entry/bg-photo.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-position: 0px 15px;
@@ -66,7 +66,7 @@ body {
     height: 400px;
     margin: 0px 20px 0px 10px;
     padding: 0px 0px 0px 0px;
-    background-image: url(../images/entry/bg-video.png);
+    background-image: url(../img/entry/bg-video.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-position: 0px 15px;
@@ -96,7 +96,7 @@ body {
     width: 420px;
     height: 400px;
     margin: 0px 20px 0px 0px;
-    background-image: url(../images/entry/bg-note.png);
+    background-image: url(../img/entry/bg-note.png);
     background-repeat: no-repeat;
     background-position: left top;
     background-position: 0px 15px;
