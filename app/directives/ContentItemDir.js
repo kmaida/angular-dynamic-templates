@@ -1,6 +1,6 @@
 app.directive('contentItem', function ($compile) {
     var imageTemplate = '<section image-template></section>';
-    var videoTemplate = '<section ng-include="\'view/tpl/VideoTpl.html\'"></section>';
+    var videoTemplate = '<section video-template></section>';
     var noteTemplate = '<section ng-include="\'view/tpl/NoteTpl.html\'"></section>';
 
     var getTemplate = function(contentType) {
