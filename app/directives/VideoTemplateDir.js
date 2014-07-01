@@ -1,6 +1,6 @@
 app.directive('videoTemplate', function ($compile) {
     return {
-        restrict: "A",
+        restrict: 'A',
         controller: 'VideoCtrl',
         replace: true,
         templateUrl: 'view/tpl/VideoTpl.html',

@@ -1,5 +1,5 @@
-function LayoutCtrl($scope, $http) {
-    "use strict";
+app.controller('LayoutCtrl', ['$scope', '$http', function($scope, $http) {
+	"use strict";
 
     $scope.url = 'app/data/content.json';
     $scope.content = [];
@@ -11,4 +11,4 @@ function LayoutCtrl($scope, $http) {
     }
 
     $scope.fetchContent();
-}
+}]);
