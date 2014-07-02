@@ -1,4 +1,4 @@
-app.directive('videoTemplate', function ($compile) {
+app.directive('videoTemplate', function() {
     return {
         restrict: 'A',
         controller: 'VideoCtrl',

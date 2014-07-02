@@ -1,4 +1,4 @@
-app.directive('contentItem', function ($compile) {
+app.directive('contentItem', function($compile) {
 	var templates = {
 		image: '<section image-template></section>',
 		video: '<section video-template></section>',

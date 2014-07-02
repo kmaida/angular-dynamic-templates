@@ -1,4 +1,4 @@
-app.directive('imageTemplate', function ($compile) {
+app.directive('imageTemplate', function() {
     return {
         restrict: 'A',
         controller: 'ImageCtrl',
