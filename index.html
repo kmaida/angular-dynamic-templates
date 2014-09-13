@@ -9,9 +9,7 @@
     <!-- app -->
     <script type="text/javascript" src="app/App.js"></script>
     <script type="text/javascript" src="app/controllers/LayoutCtrl.js"></script>
-    <script type="text/javascript" src="app/controllers/ImageCtrl.js"></script>
-    <script type="text/javascript" src="app/controllers/VideoCtrl.js"></script>
-    <script type="text/javascript" src="app/directives/ContentItemDir.js"></script>
+    <script type="text/javascript" src="app/directives/LoadComponentDir.js"></script>
     <script type="text/javascript" src="app/directives/ImageTemplateDir.js"></script>
     <script type="text/javascript" src="app/directives/VideoTemplateDir.js"></script>
     
@@ -21,7 +19,7 @@
 <body>
 
 <div id="container" class="container" ng-controller="LayoutCtrl">
-    <div content-item ng-repeat="item in content" content="item" class="container-item"></div>
+    <div load-component ng-repeat="component in data" component="component" class="container-item"></div>
 </div>
 
 </body>
