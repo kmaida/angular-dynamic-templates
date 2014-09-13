@@ -1,14 +1,14 @@
 app.controller('LayoutCtrl', ['$scope', '$http', function($scope, $http) {
 	"use strict";
 
-    $scope.url = 'app/data/content.json';
-    $scope.content = [];
+    $scope.url = 'app/data/data.json';
+    $scope.data = [];
 
-    $scope.fetchContent = function() {
+    $scope.fetchData = function() {
         $http.get($scope.url).then(function(result){
-            $scope.content = result.data;
+            $scope.data = result.data;
         });
     }
 
-    $scope.fetchContent();
+    $scope.fetchData();
 }]);
