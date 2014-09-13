@@ -1,0 +1,62 @@
+[
+    {
+    	"component" : "image", 
+    	"title" : "Image 00", 
+    	"content" : "temp-photo.jpg"
+    },
+    {
+    	"component" : "video",
+    	"title" : "Video 00",
+    	"content" : "//player.vimeo.com/video/37176398"
+    },
+    {
+    	"component" : "notes",
+    	"title" : "Notes 00",
+    	"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada."
+    },
+    {
+    	"component" : "image",
+    	"title" : "Image 01",
+    	"content" : "temp-photo.jpg"
+    },
+    {
+    	"component" : "video",
+    	"title" : "Video 01",
+    	"content" : "//player.vimeo.com/video/37176398"
+    },
+    {
+    	"component" : "notes",
+    	"title" : "Notes 01",
+    	"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada."
+    },
+    {
+    	"component" : "image",
+    	"title" : "Image 02",
+    	"content" : "temp-photo.jpg"
+    },
+    {
+    	"component" : "video",
+    	"title" : "Video 02",
+    	"content" : "//player.vimeo.com/video/37176398"
+    },
+    {
+		"component" : "notes",
+		"title" : "Notes 02",
+		"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada."
+	},
+    {
+    	"component" : "image",
+    	"title" : "Image 03",
+    	"content" : "temp-photo.jpg"
+    },
+    {
+    	"component" : "video",
+    	"title" : "Video 03",
+    	"content" : "//player.vimeo.com/video/37176398"
+    },
+    {
+    	"component" : "notes",
+    	"title" : "Notes 03",
+    	"content" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc pulvinar pretium felis. Vivamus nibh felis, condimentum sit amet laoreet luctus, posuere auctor lorem. Nullam malesuada."
+    }
+]
