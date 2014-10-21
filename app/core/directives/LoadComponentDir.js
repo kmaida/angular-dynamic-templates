@@ -2,21 +2,21 @@ app.directive('loadComponent', function($compile) {
 
 	// hashtable of component templates
 	var templates = {
-		image: '<section image-template></section>',
-		video: '<section video-template></section>',
-		notes: '<section ng-include="\'view/tpl/NotesTpl.html\'"></section>'
+		image: '<div ng-include="\'view/tpl/ImageTpl.html\'"></div>',
+		video: '<div ng-include="\'view/tpl/VideoTpl.html\'"></div>',
+		notes: '<div ng-include="\'view/tpl/NotesTpl.html\'"></div>'
 	};
 
 	// function to fetch the correct component
-	var getComponent = function(componentType) {
+	var _getComponent = function(componentType) {
 		return templates[componentType] || '';
 	};
 
 	// link function
-	var linker = function(scope, element, attrs) {
+	var _link = function(scope, element, attrs) {
 		scope.$watch('component', function(newVal, oldVal) {
 			if (newVal) {
-				element.html(getComponent(scope.component.component)).show();
+				element.html(_getComponent(scope.component.component)).show();
 	
 				$compile(element.contents())(scope);
 			}
@@ -26,7 +26,7 @@ app.directive('loadComponent', function($compile) {
 	return {
 		restrict: 'A',
 		replace: true,
-		link: linker,
+		link: _link,
 		scope: {
 			component:'='
 		}
